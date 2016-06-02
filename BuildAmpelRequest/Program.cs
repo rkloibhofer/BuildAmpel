@@ -11,9 +11,10 @@ namespace BuildAmpelRequest
     {
         static void Main(string[] args)
         {
-            string check = "y";
-            string input;
-            string ipaddress;
+            string check = "y";     //Check variable if the programm keep going on 
+            string input;           //input string
+            string ipaddress;       //ipaddress of the bampel
+
 
             Console.WriteLine("Build Ampel Testing\n\n");
             Console.WriteLine("Insert the ip adress of the Build Ampel (192.168.124.250):");
@@ -23,6 +24,7 @@ namespace BuildAmpelRequest
             do
             {
 
+                //Clear the Console
                 Console.Clear();
 
                 
@@ -32,6 +34,7 @@ namespace BuildAmpelRequest
 
                 input = Console.ReadLine();
 
+                //Choose a option
                 if (input == "1")
                 {
                     Console.WriteLine("You choose option 1.");
@@ -62,7 +65,7 @@ namespace BuildAmpelRequest
 
             } while (check == "y" || check == "Y");
 
-            // Keep the console window open in debug mode.
+            // Keep the console window open in debug mode
             Console.WriteLine("\n\n\nPress any key to exit.");
             Console.ReadKey();
         }
@@ -75,6 +78,7 @@ namespace BuildAmpelRequest
                 {
                     using (HttpResponseMessage response = await client.GetAsync(url))
                     {
+                        //The HTTP Request has been successfull
                         Console.WriteLine("Option was Successful executed");
                         Console.WriteLine("\n\nWant to try it again? (y/n)");
                     }
@@ -82,6 +86,7 @@ namespace BuildAmpelRequest
             }
             catch
             {
+                //If an error appears, it would cancel the programm
                 Console.Clear();
                 Console.WriteLine("Error: Wrong IP-Address!!!");
             }
