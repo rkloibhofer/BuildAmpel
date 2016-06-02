@@ -1,0 +1,6 @@
+C:\Users\RaphaelStamminger\Documents\C#_Projects\BuildAmpelRequest\BuildAmpelRequest\bin\Debug\BuildAmpelRequest.exe.config
+C:\Users\RaphaelStamminger\Documents\C#_Projects\BuildAmpelRequest\BuildAmpelRequest\bin\Debug\BuildAmpelRequest.exe
+C:\Users\RaphaelStamminger\Documents\C#_Projects\BuildAmpelRequest\BuildAmpelRequest\bin\Debug\BuildAmpelRequest.pdb
+C:\Users\RaphaelStamminger\Documents\C#_Projects\BuildAmpelRequest\BuildAmpelRequest\obj\Debug\BuildAmpelRequest.csprojResolveAssemblyReference.cache
+C:\Users\RaphaelStamminger\Documents\C#_Projects\BuildAmpelRequest\BuildAmpelRequest\obj\Debug\BuildAmpelRequest.exe
+C:\Users\RaphaelStamminger\Documents\C#_Projects\BuildAmpelRequest\BuildAmpelRequest\obj\Debug\BuildAmpelRequest.pdb
