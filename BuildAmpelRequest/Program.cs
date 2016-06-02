@@ -13,7 +13,7 @@ namespace BuildAmpelRequest
         {
             string check = "y";     //Check variable if the programm keep going on 
             string input;           //input string
-            string ipaddress;       //ipaddress of the bampel
+            string ipaddress;       //ipaddress of the ampel
 
 
             Console.WriteLine("Build Ampel Testing\n\n");
